@@ -1,0 +1,27 @@
+##Instruction Manual##
+
+
+## Generic Instructions## 
+1.The project is available on public github repository name https://github.com/kanchanJahagirdar/PegaSysAssignment
+2.Download zip with project name SeleniumTest and extract this and take out Java project folder named SeleniumTest from PegaSysAssignment-master folder
+3.Extracted project will have source code,chromedriver.exe and config.properties and selenium jar in project path as refrernced library so that one dont have to edit his/her build path
+4.It also contains .bat/.jar file to execute project independently
+5.Please keep chrome driver/.jar/.bat and config properties in project folder itself
+6.Project is compiled using Java 1.8, so user will need to check on compatibility of his/her eclipse
+7.If encountering issues with Java System libraries then just go to configure build path and update/edit Java System Librabries reference
+
+##Testcase specific instructions##
+Currently browser=chrome
+Scenario 1:Both the credentials are valid i.e usr=admin ,pwd=12345 in config.properties
+Scenario 2:Credentials are not valid.Kindly change any 1 either user/password in config.properties
+Scenario 3:Credentials are valid.Enable the cookieMissing parameter in config.properties
+Scenario 4:Pass valid credentials
+
+Method quitBrowser contains code which is commented,if required you can uncomment it
+
+##Execution methods
+1. Run .bat file to execute project is easiest way
+2. Run .jar file independently from command prompt with project directory
+3. Import project into eclipse IDE and run as Java application
+
+
