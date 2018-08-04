@@ -29,10 +29,10 @@ import org.testng.annotations.AfterTest;
 
 public class WebScraperTesting {
 
-	// Initialize Webdriver and necessary variables
+	// Initialize Webdriver and required variables
 	public static WebDriver driver;
 	static Properties prop;
-	static String status="Notexecuted";
+	static String status="Notexecuted"; 
 	
 	public static void main(String[] args) {
 		
