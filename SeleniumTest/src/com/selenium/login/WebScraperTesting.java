@@ -29,7 +29,7 @@ import org.testng.annotations.AfterTest;
 
 public class WebScraperTesting {
 
-	// Initialize Webdriver and required variables
+	// Initialize Webdriver and required variables for execution
 	public static WebDriver driver;
 	static Properties prop;
 	static String status="Notexecuted"; 
